@@ -1,0 +1,22 @@
+###
+POST http://localhost:3000/api/signup
+Content-Type: application/json
+
+{
+  "name": "Adam Richard",
+  "email": "adam@gmail.com"
+}
+
+###
+POST http://localhost:3000/api/posts
+Content-Type: application/json
+{
+    "userId": 2
+}
+
+
+###
+DELETE http://localhost:3000/api/deletepost/:1
+
+###
+GET http://localhost:3000/api/posts/:2
